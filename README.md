@@ -40,8 +40,22 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
+
+## Features in GIFs
+- All GIFs include game interface with heading, line of body text, and 6 buttons 
+- New buttons use new pitch frequency and are styled differently 
+- Computer picks a different pattern each time 
+- Game button adds an image when clicked
+- Game buttons light up and play a sound when clicked, and computer plays back sequence of clues including sound and visual cue for each button 
+- Play progresses to next turn after a correct guess
+
+## User wins game after guessing a complete pattern
 ![](https://i.imgur.com/Re0mnsn.gif)
+
+## USer loses the game after an incorrect pattern
 ![](https://i.imgur.com/V9iVhnr.gif)
+
+## "Start" button toggles between start and stop when clicked
 ![](https://i.imgur.com/hPmePDp.gif)
 
 
