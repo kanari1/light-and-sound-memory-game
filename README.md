@@ -50,6 +50,7 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 
 ## 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
 Outside resources that I used included StackOverflow and the mozilla developer docs.
+
 https://stackoverflow.com/questions/45406735/how-can-i-unhide-an-image-when-a-button-is-clicked
 
 https://developer.mozilla.org/en-US/docs/Web/CSS/color_value
