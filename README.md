@@ -52,7 +52,7 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 ## User wins game after guessing a complete pattern
 ![](https://i.imgur.com/Re0mnsn.gif)
 
-## USer loses the game after an incorrect pattern
+## User loses the game after an incorrect pattern
 ![](https://i.imgur.com/V9iVhnr.gif)
 
 ## "Start" button toggles between start and stop when clicked
