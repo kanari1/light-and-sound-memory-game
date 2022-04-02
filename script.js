@@ -17,7 +17,7 @@ var clueHoldTime = 1000; // how long to hold each clue's light/sound
 function generateRandomPattern(){
   // generate random pattern
   for (let i=0; i < 8; i++) {
-    pattern.push(Math.floor(Math.random() * (4 - 1 + 1) + 1))
+    pattern.push(Math.floor(Math.random() * (6 - 1 + 1) + 1))
   }
 }
 
@@ -45,7 +45,9 @@ const freqMap = {
   1: 261.6,
   2: 329.6,
   3: 392,
-  4: 466.2
+  4: 466.2,
+  5: 550,
+  6: 620
 }
 
 function playTone(btn,len){ 
@@ -109,7 +111,7 @@ function playClueSequence(){
     console.log("play single clue: " + pattern[i] + " in " + delay + "ms")
     setTimeout(playSingleClue,delay,pattern[i]) // set a timeout to play that clue
     
-    clueHoldTime -= 100
+    clueHoldTime -= 50
     console.log(clueHoldTime)
     delay += clueHoldTime 
     delay += cluePauseTime;

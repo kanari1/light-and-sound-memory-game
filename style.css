@@ -22,6 +22,13 @@ h1 {
   font-family: verdana, arial, sans-serif;
 }
 
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
 button {
   padding: 10px;
   border-radius: 10px;
@@ -41,38 +48,95 @@ button {
   background: lightgreen;
 }
 
-#button1:active, #button1.lit {
-  background: green;
+#button1 img {
+  display: none;
 }
 
 #button2 {
   background: lightblue;
 }
 
-#button2:active, #button2.lit {
-  background: blue;
+#button2 img {
+  display: none;
 }
 
 #button3 {
   background: pink;
 }
 
-#button3:active, #button3.lit {
-  background: red;
+#button3 img {
+  display: none;
 }
 
 #button4 {
   background: lightyellow;
 }
 
+#button4 img {
+  display: none;
+}
+
+#button5 {
+  background: lavender;
+}
+
+#button5 img {
+  display: none;
+}
+
+#button6 {
+  background: lightsalmon;
+}
+
+#button6 img {
+  display: none;
+}
+
+#button1:active img {
+  display: inline;
+}
+
+#button1:active, #button1.lit {
+  background: green;
+}
+
+
+#button2:active img {
+  display: inline;
+}
+
+#button2:active, #button2.lit {
+  background: blue;
+}
+
+#button3:active img {
+  display: inline;
+}
+
+#button3:active, #button3.lit {
+  background: red;
+}
+
+#button4:active img {
+  display: inline;
+}
 
 #button4:active, #button4.lit {
   background: yellow;
 }
 
-/* images and videos max out at full width */
-img,
-video {
-  height: auto;
-  max-width: 100%;
+#button5:active img {
+  display: inline;
+}
+
+#button5:active, #button5.lit {
+  background: blueviolet;
+}
+
+#button6:active img {
+  display: inline;
+}
+
+#button6:active, #button6.lit {
+  background: coral;
 }
