@@ -4,7 +4,7 @@
 
 Submitted by: **Katrina Jang**
 
-Time spent: **12** hours spent in total
+Time spent: **15** hours spent in total
 
 Link to project: 
 https://glitch.com/edit/#!/mire-chambray-rotate 
